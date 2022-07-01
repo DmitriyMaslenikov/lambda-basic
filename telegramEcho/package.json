@@ -1,0 +1,20 @@
+{
+  "name": "telegramecho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Dmitriy Maslenikov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-telegram-bot-api": "^0.58.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
