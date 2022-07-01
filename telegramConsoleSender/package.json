@@ -1,0 +1,20 @@
+{
+  "name": "tcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Dmitriy Maslenikov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "node-telegram-bot-api": "^0.58.0",
+    "dotenv": "^16.0.1"
+  }
+}
